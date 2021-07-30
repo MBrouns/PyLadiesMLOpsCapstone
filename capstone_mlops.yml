@@ -1,0 +1,19 @@
+name: capstone_mlops
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - ipykernel
+  - matplotlib
+  - pandas
+  - scipy
+  - scikit-learn
+  - pandas_profiling
+pip:
+  - azureml-core
+  - azureml-dataset-runtime[fuse]
+  - azureml-pipeline-core
+  - azureml-pipeline-step
+
