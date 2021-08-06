@@ -1,0 +1,12 @@
+name: capstone_environment
+dependencies:
+- python=3.8
+- numpy
+- pandas
+- scikit-learn
+- pip:
+  - azureml-core
+  - azureml-dataset-runtime[fuse]
+  - azureml-pipeline-core
+  - azureml-pipeline-steps
+  - azureml-dataprep
